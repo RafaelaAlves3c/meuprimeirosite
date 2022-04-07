@@ -4,9 +4,15 @@ body{
 
 .img-topo{
     width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 .img-corpo{
     width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 .container{
     width: 50%;
@@ -16,7 +22,7 @@ h1{
     text-align: center;
     }
 p{
-    font-size: 20;
+    font-size: 30px;
     text-align: justify;
     text-indent: 35px;
     }
