@@ -26,7 +26,13 @@ p{
     text-align: justify;
     text-indent: 35px;
     }
+.paragrafo > p{
+    font-size: 2em;
+    text-align: center;
+}
+.voltar{
+    background-color: rgb(70, 70, 143);
+    height: 50px;
+    width: 100px;
+}
   
-
-
-
