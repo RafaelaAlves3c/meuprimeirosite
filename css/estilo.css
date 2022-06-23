@@ -108,4 +108,14 @@ footer p{
 } 
 .clique{
     line-height: 70px;
+}
+table{
+    font-family: 'Lucida Sans';
+    border-collapse: solid;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
 } 
+tr:nth-child(even){
+       background-color: #B0E0E6;
+}
