@@ -3,11 +3,12 @@ html{
 }
 .menu{
     background-color: rgb(44, 119, 185);
+    padding: 1px;
 }
 .itens_menu{
     text-align: center;
-    font-size: 1cm;
-    line-height: 2cm;
+    font-size: 30px;
+    line-height: 1.5;
     text-decoration: none;
 }
 .itens_menu a:hover {
@@ -31,6 +32,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: 30px;
     }
 .figure{
     text-align: center;
@@ -43,8 +45,6 @@ body{
 h1{
     text-align: center;
     color: 	#0000CD;
-    padding-top: 1em;
-    padding-bottom: 2em;
     font-size: 2cm;
     }
 p{
@@ -79,6 +79,7 @@ footer{
     text-align: center;
     text-indent: 4cm;
     margin-top: 0%;
+    padding: 30px;
 }
 footer p{
     font-size: 1cm;
@@ -108,14 +109,29 @@ footer p{
 } 
 .clique{
     line-height: 70px;
+    margin: 20px;
 }
-table{
+.obras{
+    margin-bottom: 1%;
+}
+table,th, tr{
     font-family: 'Lucida Sans';
-    border-collapse: solid;
+    border: solid;
     width: 100%;
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-style: oblique;
+    margin-bottom: 70px;
 } 
 tr:nth-child(even){
-       background-color: #B0E0E6;
+       background-color: #7FFFD4;    
+}
+.hi{
+    margin: 30px;
+}
+.obras{
+    margin: 30px;
+    font-size: 50px;
 }
