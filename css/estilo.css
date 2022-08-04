@@ -121,8 +121,8 @@ table,th, tr{
     border: solid;
     width: 100%;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     font-size: 30px;
     font-style: oblique;
     margin-bottom: 70px;
@@ -136,4 +136,17 @@ tr:nth-child(even){
 .obras{
     margin: 30px;
     font-size: 50px;
+}
+td{
+    font-size: 40px;
+    padding: 20px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tomate{
+    padding: 20px;
+    
+}
+.maça{
+    padding: 20px;
 }
