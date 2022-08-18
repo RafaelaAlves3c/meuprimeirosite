@@ -61,23 +61,21 @@ p{
     font-size: 2em;
     text-align: center;
 }
-.voltar a:hover{
-   font-size: 2cm;
-   color: rgb(236, 5, 5);
-   text-align: center;
-   text-decoration: none;
+.voltar{
+  background-color: #ffffff; 
+  border: none;
+  color: rgb(0, 102, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
 }
-.voltar a:link, .voltar a:visited{
-    color: #1619e0;
-    text-decoration: none;
-    padding: 30px;
-    text-align: center;
-    display: inline-block
-}
-.voltar:hover{
-    background-color: #00FFFF;
-    color: red;
-}
+.voltar:hover {
+    background-color: #5b4caf; /* Green */
+    color: white;
+  }
 footer{
     background-color: rgb(11, 194, 250);
     text-align: center;
@@ -119,12 +117,12 @@ footer p{
     margin-bottom: 1%;
 }
 table{
-    font-family: 'Lucida Sans';
     border: solid;
-    width: 50%;
+    width: 100%;
     text-align: center;
     font-size: 5px;
     margin-bottom: 70px;
+    
 } 
 tr:nth-child(even){
        background-color: #7FFFD4; 
@@ -137,7 +135,7 @@ tr:nth-child(even){
     font-size: 50px;
 }
 td,tr,th{
-    font-size: 40px;
+    font-size: 30px;
     border: solid;
     text-align: center;
 }
@@ -151,9 +149,11 @@ td,tr,th{
 }
 label{
     color: #002677;
-    font-size: 30px;
+    font-size: 20px;
     font-style: oblique;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
 }
 input{
     padding: 20px;
@@ -165,7 +165,7 @@ form{
     margin-bottom: 25px;
     padding: 40px;
 }
-input[type=text], input[type=email], input[type=tel], select {
+input[type=text], input[type=email], input[type=tel], input[type=date],select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -176,7 +176,7 @@ input[type=text], input[type=email], input[type=tel], select {
   }
 input[type=submit] {
     width: 100%;
-    background-color: #30d346;
+    background-color: #005e83;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -190,6 +190,9 @@ input[type=submit] {
 }
 form{
     background-color: #00BFFF;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+.conversa{
+    font-size: 30px;
 }
    
