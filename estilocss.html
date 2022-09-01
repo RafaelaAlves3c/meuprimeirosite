@@ -10,9 +10,10 @@
             background-color: red;
         }
         h1{
-            font-size: 4cm;
+            font-size: 1cm;
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: darkgreen;
         }
         p{
             background-color: red;
@@ -20,15 +21,79 @@
             font-size: 1cm;
             text-align: center;
         }
+        .container{
+            top: 0%;
+        }
+        .fixo{
+            position: fixed;
+            width: 100%;
+            top: 0%;
+            z-index: 1000px;
+        }
+        .main{
+            height: 1500px;
+            width: 100%;
+            background-color: white;
+            position: relative;
+            text-align: center;
+        }
+        .esq{
+            width: 20%;
+            background-color: blue;
+            position: absolute;
+            top: 16px;
+            left: 16px;
+        }
+        .dir{
+            width: 20%;
+            background-color: rgb(174, 0, 255);
+            position: absolute;
+            top: 16px;
+            right: 16px;  
+        }
+        .baixoesq{
+            width: 20%;
+            background-color: rgb(255, 0, 179);
+            position: absolute;
+            bottom: 16px;
+            left: 16px;  
+        }
+        .baixodir{
+            width: 20%;
+            background-color: rgb(255, 238, 0);
+            position: absolute;
+            bottom: 16px;
+            right: 16px;  
+        }
+        .centro{
+            top: 600px;
+            left: 600px;
+            position: absolute;
+            width: 20%;
+            background-color: lawngreen;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Teste CSS</h1>
-    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus doloribus autem corrupti aspernatur accusamus possimus labore quae tenetur blanditiis qui! Delectus maiores reprehenderit adipisci minus est obcaecati nihil totam aperiam.</P>
-    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis expedita adipisci autem pariatur velit cum consequatur doloribus facere in dicta exercitationem blanditiis est dolore ipsum excepturi, et maiores ad!</P>
-    <ul style="background-color: red;font-weight: bold;"> 
+    <header>
+      <h1 >Teste CSS</h1>
+     <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus doloribus autem corrupti aspernatur accusamus possimus labore quae tenetur blanditiis qui! Delectus maiores reprehenderit adipisci minus est obcaecati nihil totam aperiam.</P>
+      <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis expedita adipisci autem pariatur velit cum consequatur doloribus facere in dicta exercitationem blanditiis est dolore ipsum excepturi, et maiores ad!</P>
+      <ul style="background-color: red;font-weight: bold;"> 
         <li style="color: rgb(0, 0, 0);">amo programar</li>
         <li style="color: rgb(0, 0, 0);">odeio css inline</li>
-    </ul>
+      </ul>-->
+   </header>
+   <div class="container">
+       <div class="main">
+          <h1 class="fixo">Testando Posições</h1>
+          <div class="esq">sim</div>
+          <div class="dir">sim</div>
+          <div class="centro">sim</div>
+          <div class="baixoesq">sim</div>
+          <div class="baixodir">sim</div>
+        </div>
+   </div>
 </body>
 </html>
